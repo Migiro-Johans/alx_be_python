@@ -2,8 +2,8 @@ length = 10
 width  = 5
 
 def cal( length, width):
-    Area = length * width
-    return Area
+    area = length * width
+    return area
 
-Area = cal( 10, 5)
-print(f"The area of the rectangle is: {Area}")
+area = cal( 10, 5)
+print(f"The area of the rectangle is: {area}")
