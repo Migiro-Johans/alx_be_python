@@ -25,6 +25,6 @@ def daily_reminder():
         return
 
     
-    print("\nReminder:", reminder)
+    print("\n Reminder:", reminder)
 
 daily_reminder()
