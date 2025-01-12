@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 def display_current_datetime():
     """displays current date and time in a readable format"""
     current_date = datetime.now()
-    formatted_date = current_date.strftime("%Y-%m-%d-%H:%M:%S")
+    formatted_date = current_date.strftime("%Y-%m-%d %H:%M:%S")
     print("Current date and time is: ", formatted_date)
 
 def calculate_future_date():
