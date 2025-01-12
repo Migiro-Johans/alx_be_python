@@ -1,5 +1,5 @@
 from datetime import datetime, timedelta
-def displays_current_date():
+def display_current_date():
     """displays current date and time in a readable format"""
     current_date = datetime.now()
     formatted_date = current_date.strftime("%Y-%m-%d-%H:%M:%S")
@@ -16,7 +16,7 @@ def calculate_future_date():
 def main():
     "Main function to demonstrate the use of datetime module"
     print("Exploring The Datetime module")
-    displays_current_date()
+    display_current_date()
     calculate_future_date()
 
 if __name__ == "__main__":
